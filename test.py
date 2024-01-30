@@ -6,7 +6,7 @@ import numpy as np
 def main():
 
 # CSV 파일 경로
-    csv_file_path = r'C:\re_insstacart\orders.csv'
+    csv_file_path = r'./orders.csv'
 
 # CSV 파일 불러오기
     df_orders = pd.read_csv(csv_file_path)
